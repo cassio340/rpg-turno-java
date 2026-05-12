@@ -1,0 +1,37 @@
+[
+  {
+    "nome": "fenda cortante",
+    "dano": 3.0,
+    "bonus": "ATAQUE_FISICO"
+  },
+  {
+    "nome": "Golpe Selvagem",
+    "dano":2.5,
+    "bonus": "ATAQUE_FISICO"
+  },
+  {
+    "nome": "Corte Divino",
+    "dano":10,
+    "bonus": "ATAQUE_FISICO"
+  },
+  {
+    "nome": "Projetil Magico",
+    "dano":2.5,
+    "bonus":"ATAQUE_MAGICO"
+  },
+  {
+    "nome": "bola de fogo",
+    "dano":5.0,
+    "bonus": "ATAQUE_MAGICO"
+  },
+  {
+    "nome": "Raio Arcano",
+    "dano":3.2,
+    "bonus": "ATAQUE_MAGICO"
+  },
+  {
+    "nome": "Super Nova",
+    "dano":10.0,
+    "bonus": "ATAQUE_MAGICO"
+  }
+]

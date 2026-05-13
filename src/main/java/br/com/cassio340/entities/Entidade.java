@@ -53,6 +53,7 @@ public abstract class Entidade implements Atacar {
     }
 
     public void setForca(double forca) {
+
         this.forca = forca;
     }
 

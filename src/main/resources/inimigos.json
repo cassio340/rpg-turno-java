@@ -26,9 +26,9 @@
       "hp": 70,
       "hpMax": 70,
       "forca": 4.0,
-      "mana": 0.5,
+      "forcaMagica": 0.5,
       "bonus": "ATAQUE_FISICO",
-      "forcaMagica": "MEDIO"
+      "nivel": "MEDIO"
     }
   ]
 

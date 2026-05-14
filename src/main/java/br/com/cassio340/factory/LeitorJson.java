@@ -1,4 +1,5 @@
 package br.com.cassio340.factory;
+import br.com.cassio340.entities.inimigos.Inimigo;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -25,4 +26,5 @@ public class LeitorJson {
         }
         return lista;
     }
+
 }

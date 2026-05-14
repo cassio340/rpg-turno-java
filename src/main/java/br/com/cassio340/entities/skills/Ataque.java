@@ -1,6 +1,6 @@
 package br.com.cassio340.entities.skills;
 
-public abstract class Ataque {
+public class Ataque {
     private String nome;
     private double dano;
     private Bonus bonus;

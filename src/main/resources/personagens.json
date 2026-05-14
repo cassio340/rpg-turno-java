@@ -14,7 +14,7 @@
     "hpMax": 100,
     "forca": 1.0,
     "forcaMagica": 4.0,
-    "bonus": "ATAQUE_FISICO"
+      "bonus": "ATAQUE_MAGICO"
 
   }
 

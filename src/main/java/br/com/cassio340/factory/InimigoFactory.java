@@ -8,13 +8,8 @@ import java.util.Random;
 
 public class InimigoFactory {
     private static final Random rnd = new Random();
-    private static final List<Inimigo> inimigos = carregarInimigos();
-
-
-    private static List <Inimigo> carregarInimigos(){
-        String caminho = "src//main//resources//inimigos.json";
-        return LeitorJson.lerJson(caminho,Inimigo.class);
-    }
+    private static final List<Inimigo> inimigos =
+            LeitorJson.lerJson("src//main//resources//inimigos.json",Inimigo.class);
 
 
     public static Inimigo gerarInimigo(NivelDificuldade nivel){

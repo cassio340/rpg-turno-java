@@ -6,7 +6,7 @@ import br.com.cassio340.entities.personagens.Player;
 public class Combate {
 
     public static void batalha (Player player, Inimigo inimigo){
-        while(player.estaVivo(player) && inimigo.estaVivo(inimigo) ){
+        while(player.estaVivo() && inimigo.estaVivo() ){
             informacoesDeBatalha(player,inimigo);
 
         }

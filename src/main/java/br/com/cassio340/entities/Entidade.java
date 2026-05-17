@@ -77,8 +77,8 @@ public abstract class Entidade implements Atacar {
 
 
 
-    public Boolean estaVivo(Entidade entidade) {
-        if (entidade.getHp() <= 0){
+    public Boolean estaVivo() {
+        if (hp <= 0){
             System.out.println("GameOver");
             return false;
         }
